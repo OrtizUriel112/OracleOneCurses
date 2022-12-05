@@ -31,7 +31,7 @@
     let weightJuan = 86;
     let heightJuan = 1.79;
 
-    print("El índice de Masa Corporal de Juan es de: "+imcCalculate(weightJuan, heightJuan));
+    print("El índice de Masa corporal de Juan es de: "+imcCalculate(weightJuan, heightJuan));
     jumpLineFunction();
 
     print("<h2>Manera 2</h2>");
@@ -39,13 +39,22 @@
     let heightPedro = 1.82;
     let imcCalculatedPedro = weightPedro/(Math.pow(heightPedro,2));
 
-    print("El índice de Masa Corporal de Pedro es de: "+imcCalculatedPedro);
+    print("El índice de masa corporal de Pedro es de: "+imcCalculatedPedro);
 
     
     print("<h2>Promedio</h2>");
 
     
     print("El promedio de Juan y Pedro es: "+(imcCalculate(weightJuan, heightJuan)+imcCalculate(weightPedro, heightPedro))/2);
+    
+    print("<h1>Usuario</h1>");
+    print("<h2>Manera 3</h2>");
+    let username = prompt("Escriba su nombre... ejemplo: juan");
+    let weight = prompt("Hola "+username+", escriba su peso... ejemplo: 86");
+    let height = prompt("Ahora escriba su altura... ejemplo: 1.79");
+
+    print("El índice de masa corporal (IMC) de " +username+ " es de: "+imcCalculate(weight, height));
+    jumpLineFunction();
     
 
 </script>
