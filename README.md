@@ -5,6 +5,7 @@
 - Navegador
 - Editor de texto
 - Lenguaje de programación
+> **Note:** Solamente introducción.
 
 ## Curso 2:
 ### Conceptos primordiales
