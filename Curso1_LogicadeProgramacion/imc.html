@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    let jumpLine = "<br>";
+
+    function jumpLineFunction() {
+        document.write(jumpLine);
+    }
+
+    function print(phrase){
+        document.write(phrase);
+    }
+
+    let weightJuan = 86;
+    let heightJuan = 1.79;
+    let imcCalculatedJuan = weightJuan/(Math.pow(heightJuan,2));
+
+    print("El índice de Masa Corporal de Juan es de: "+imcCalculatedJuan);
+    jumpLineFunction();
+    let weightPedro = 68;
+    let heightPedro = 1.82;
+    let imcCalculatedPedro = weightPedro/(Math.pow(heightPedro,2));
+
+    print("El índice de Masa Corporal de Pedro es de: "+imcCalculatedPedro);
+
+</script>

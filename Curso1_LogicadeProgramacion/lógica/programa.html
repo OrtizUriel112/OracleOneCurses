@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Estoy definiendo la edad de Christian
+    <br>
+</body>
+</html>
+
+<script>
+
+    let annoActual = 2022;
+    let joseAge = 20;
+    let joseBirthyear = 2002;
+    let manuelAge = 25;  
+    let manuelBirthyear = 1997;
+    let antonioAge = 15;
+    let antonioBirthyear = 2007;
+    document.write("La edad de Christian es... <br>");
+    document.write("?");
+    document.write("<h1>Edades</h1> <br>");  
+    document.write("La suma de las edades de José, Manuel y Antonio es: "+(joseAge+manuelAge+antonioAge)+ "<br>");  
+    document.write("José nació en: "+(annoActual-joseAge)+", José tiene: "+(annoActual-joseBirthyear)+" años <br>");
+    document.write("Manuel nació en: "+(annoActual-manuelAge)+", Manuel tiene: "+(annoActual-manuelBirthyear)+" años <br>");
+    document.write("Antonio nació en: "+(annoActual-antonioAge)+", Antonio tiene: "+(annoActual-antonioBirthyear)+" años <br>");
+    
+    document.write("<h1>Variables</h1> <br>"); 
+    let mes = 7;
+    document.write("Junio es el mes número: "+mes+"<br>");
+    mes = 6
+    document.write("Perdón, es el: "+mes+"<br>");
+ 
+    let mariaAge = 10; 
+    let fernandaAge = 25;   
+    let lauraAge = 15; 
+    let name1 = "Maria";
+    let name2 = "Fernanda";
+    let name3 = "Laura";
+    
+    document.write("<h2>Ejercicio 2 </h2>");
+    document.write("Maria tiene: "+(mariaAge)+" años <br>");
+    document.write("Fernanda tiene: "+(fernandaAge)+" años <br>");
+    document.write("Laura tiene: "+(lauraAge)+" años <br>");
+    let promedio = (mariaAge+fernandaAge+lauraAge)/3;
+    document.write("El promedio de las edades de "+name1+", "+name2+" y "+name3+" es: "+Math.round(promedio));
+    
+    let jumpLine = "<br>";
+
+    document.write(jumpLine+"Lest go");
+
+    document.write("<h1>Funciones</h1> <br>"); 
+
+    function jumpLineFunction() {
+        document.write(jumpLine);
+    }
+    
+    document.write("Lest go"); 
+
+
+    document.write("<h1>Funciones con parámetros</h1> <br>"); 
+
+    function printPhrase(phrase){
+        document.write(phrase);
+    }
+
+    printPhrase("hola amigos!");
+
+    jumpLineFunction();
+
+</script>
