@@ -17,3 +17,7 @@
     - Conectando HTML con JavaScript
     - Botones y cajas de texto
 - Arrays y Listas
+
+
+## Curso 3:
+### Practicando con juegos y animaciones
