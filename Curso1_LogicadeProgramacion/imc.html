@@ -22,16 +22,30 @@
         document.write(phrase);
     }
 
+    function imcCalculate(weight, height){
+        imcCalculatedJuan = weight/(Math.pow(height,2));
+        return imcCalculatedJuan;
+    }
+
+    print("<h2>Manera 1</h2>");
     let weightJuan = 86;
     let heightJuan = 1.79;
-    let imcCalculatedJuan = weightJuan/(Math.pow(heightJuan,2));
 
-    print("El índice de Masa Corporal de Juan es de: "+imcCalculatedJuan);
+    print("El índice de Masa Corporal de Juan es de: "+imcCalculate(weightJuan, heightJuan));
     jumpLineFunction();
+
+    print("<h2>Manera 2</h2>");
     let weightPedro = 68;
     let heightPedro = 1.82;
     let imcCalculatedPedro = weightPedro/(Math.pow(heightPedro,2));
 
     print("El índice de Masa Corporal de Pedro es de: "+imcCalculatedPedro);
+
+    
+    print("<h2>Promedio</h2>");
+
+    
+    print("El promedio de Juan y Pedro es: "+(imcCalculate(weightJuan, heightJuan)+imcCalculate(weightPedro, heightPedro))/2);
+    
 
 </script>
