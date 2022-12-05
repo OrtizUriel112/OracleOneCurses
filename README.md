@@ -1,7 +1,13 @@
 # Logica de programación
 
-## Curso 2:
+## Curso 1:
+### Primeros pasos
+- Navegador
+- Editor de texto
+- Lenguaje de programación
 
+## Curso 2:
+### Conceptos primordiales
 - Condicionales
 - Iteraciones
     - Ciclo While
