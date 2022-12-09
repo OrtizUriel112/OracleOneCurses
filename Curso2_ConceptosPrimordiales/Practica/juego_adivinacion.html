@@ -18,4 +18,22 @@
     function print(phrase){
         document.write(phrase);
     }
+
+    function promptFunction(string){
+        const data = parseInt(prompt(string));
+        return data;
+    }
+
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+
+    const numberRandom = getRandomInt(10);
+    const userValue = promptFunction("Ingrese un número del 0-9");
+    if (numberRandom==userValue) {
+        alert("Excelente!");
+    }else{
+        alert("Upps... el número random era: "+numberRandom+" y el tuyo: "+userValue);
+    }
+    
 </script>
