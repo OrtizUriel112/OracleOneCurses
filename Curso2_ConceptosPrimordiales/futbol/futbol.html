@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbol</title>
+</head>
+<body>
+    <h1> Calular puntos de un equipo de Futbol</h1>
+</body>
+</html>
+
+<script>
+    let jumpLine = "<br>";
+
+    function jumpLineFunction() {
+        document.write(jumpLine);
+    }
+
+    function print(phrase){
+        document.write(phrase);
+    }
+
+    function imcCalculate(weight, height){
+        imcCalculatedJuan = weight/(Math.pow(height,2));
+        return imcCalculatedJuan;
+    }
+
+    function promptFunction(string){
+        const data = parseInt(prompt(string));
+        return data;
+    }
+
+    const victorias = promptFunction("Cuántas victorias tuvo el equipo?: ");
+    const empates = promptFunction("Cuántas empates tuvo el equipo?: ");
+    
+    const puntosTotales = (victorias * 3) + empates;
+
+    print("El total de puntos del equipo es: "+puntosTotales);
+    jumpLineFunction();
+    if (puntosTotales<10) {
+        print("El equipo está peor que el año pasado"); 
+    }else if(puntosTotales>=10 && puntosTotales<20){
+        print("El equipo está mejor que el año pasado"); 
+    }else if(puntosTotales>=20){
+        print("El equipo está excelente que el año pasado"); 
+    }
+
+    
+
+</script>
