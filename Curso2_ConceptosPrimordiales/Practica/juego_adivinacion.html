@@ -24,16 +24,24 @@
         return data;
     }
 
-    function getRandomInt(max) {
-        return Math.floor(Math.random() * max);
+    function sorteo(max) {
+        return Math.floor(Math.random() * max)+1;
     }
 
-    const numberRandom = getRandomInt(10);
-    const userValue = promptFunction("Ingrese un número del 0-9");
+    const numberRandom = sorteo(10);
+    const userValue = promptFunction("Ingrese un número del 1-10");
+
+
     if (numberRandom==userValue) {
         alert("Excelente!");
     }else{
-        alert("Upps... el número random era: "+numberRandom+" y el tuyo: "+userValue);
+        let textDecision;
+        if (userValue<numberRandom) {
+            textDecision = " es menor a ";
+        }else{
+            textDecision = " es mayor a ";
+        }
+        alert("Upps... tu número: "+userValue+textDecision+numberRandom);
     }
     
 </script>
