@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundiales de Fútbol</title>
+</head>
+<body>
+    <h1>El inicio del mundial de fútbol fué en 1930</h1>
+    <h2>Los siguientes años son:</h2>
+</body>
+</html>
+<script>
+    let jumpLine = "<br>";
+    function jumpLineFunction() {
+        document.write(jumpLine);
+    }
+
+    function print(phrase){
+        document.write(phrase);
+    }
+
+    function promptFunction(string){
+        const data = parseInt(prompt(string));
+        return data;
+    }
+
+    function getDateSoccer(startDate, nowDate) {
+        while (startDate<=nowDate) {
+            print(startDate);
+            startDate = startDate+4;
+            jumpLineFunction();
+        }
+        return 0;
+    }
+ 
+    const worldSoccer = 1930;
+    const nowDate = promptFunction("Inicie el año actual");
+    getDateSoccer(worldSoccer,nowDate);
+
+</script>
