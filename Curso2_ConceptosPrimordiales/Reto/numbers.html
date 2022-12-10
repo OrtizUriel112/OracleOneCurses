@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Pares</title>
+</head>
+<body>
+    <h1>Calcular números pares del 1 al 100</h1>
+</body>
+</html>
+<script>
+    let jumpLine = "<br>";
+    function jumpLineFunction() {
+        document.write(jumpLine);
+    }
+
+    function print(phrase){
+        document.write(phrase);
+        jumpLineFunction();
+    }
+
+    function promptFunction(string){
+        const data = parseInt(prompt(string));
+        return data;
+    }    
+    let iterator=1;
+    while (iterator<=100) {
+        if (iterator % 2==0) {
+            print(iterator);
+        }
+        if (iterator==100) { 
+            print("FIN");
+        }
+        iterator++;
+    }
+</script>

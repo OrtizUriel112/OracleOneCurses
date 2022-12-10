@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edades Familia</title>
+</head>
+<body>
+    <h1>Calcular edades de una familia</h1>
+</body>
+</html>
+<script>
+    let jumpLine = "<br>";
+    function jumpLineFunction() {
+        document.write(jumpLine);
+    }
+
+    function print(phrase){
+        document.write(phrase);
+        jumpLineFunction();
+    }
+
+    function promptFunction(string){
+        const data = parseInt(prompt(string));
+        return data;
+    }
+ 
+    function getAllAgeFamily(ageFamily) {
+        for (let index = 0; index < ageFamily.length; index++) { 
+           print(ageFamily[index]);
+        }
+    }
+
+    function getAverageFamily(ageFamily) {
+        let iteratorAge=0;
+        for (let index = 0; index < ageFamily.length; index++) { 
+            iteratorAge = iteratorAge+ageFamily[index];
+        }
+        let averageFamily = iteratorAge/ageFamily.length;
+        return averageFamily;
+    }
+
+    let ageFamily = [42, 38, 15, 12];
+    // ageFamily.forEach(element => print(element)); 
+    // var iterador = ageFamily.values(); 
+    getAllAgeFamily(ageFamily);
+    print("El promedio de la familia es: "+getAverageFamily(ageFamily));
+
+    print("<h2>User view</h2>");
+
+    const familyLenght=promptFunction("Cuántos miembros son los de tu familia?");
+    let listFamily=[];
+    for (let index = 0; index < familyLenght; index++) {
+        const value = promptFunction("Cuál es la edad: ");
+        listFamily.push(parseInt(value));
+    } 
+    print("El promedio de la familia es: "+getAverageFamily(listFamily));
+
+</script>
