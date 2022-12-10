@@ -29,20 +29,24 @@
         return Math.floor(Math.random() * max)+1;
     }
 
-    const numberRandom = sorteo(10);
-    const userValue = promptFunction("Ingrese un número del 1-10");
-
-
-    if (numberRandom==userValue) {
-        alert("Excelente!");
-    }else{
-        let textDecision;
-        if (userValue<numberRandom) {
-            textDecision = " es menor a ";
+    const numberRandom = sorteo(10); 
+    let intentos=2;
+    while (intentos >=0) {
+        const userValue = promptFunction("Ingrese un número del 1-10"); 
+        if (numberRandom==userValue) {
+            alert("Excelente!");
+            break;
         }else{
-            textDecision = " es mayor a ";
-        }
-        alert("Upps... tu número: "+userValue+textDecision+numberRandom);
-    } 
+            let textDecision;
+            if (userValue<numberRandom) {
+                textDecision = " es menor a ";
+            }else{
+                textDecision = " es mayor a ";
+            }
+            // alert("Upps... tu número: "+userValue+textDecision+numberRandom);
+            alert("Upps... tu número: "+userValue+textDecision+"número aleatorio, tienes "+intentos+" intentos");
+        }  
+        intentos--;
+    }
 
 </script>

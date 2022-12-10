@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+<script>
+ 
+    let jumpLine = "<br>";
+    function jumpLineFunction() {
+        document.write(jumpLine);
+    }
+    function print(phrase){
+        document.write(phrase);
+    }
+
+    var inicioDeSesionRegistrado = "alura";
+    var contrasenhaRegistrada = "alura321";
+    let intentos=1;
+    while (intentos <=3) {
+        var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+        var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+        if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+            alert("Bienvenido al sistema " + inicioDeSesionIngresado);  
+            print("Login realizado correctamente");
+            break;
+        } else {
+            alert("inicio de sesión inválido. Favor intente de nuevo.");
+        }
+
+        if (intentos==3) { 
+            print("Sus credenciales son inválidas, por favor comuníquese con un Administrador."); 
+            break;
+        }
+        intentos++;
+    }
+
+</script>
