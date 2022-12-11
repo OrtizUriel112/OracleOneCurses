@@ -6,7 +6,7 @@
 - Editor de texto
 - Lenguaje de programación
 > **Note:** Solamente introducción.
-
+---
 ## Curso 2:
 ### Conceptos primordiales
 - Condicionales
@@ -17,7 +17,13 @@
     - Conectando HTML con JavaScript
     - Botones y cajas de texto
 - Arrays y Listas
-
-
+--- 
 ## Curso 3:
-### Practicando con juegos y animaciones
+### Practicando con juegos y animaciones 
+- Conocer Canvas de HTML
+- Crear funciones e iteraciones 
+- Interacción con el usuario
+    - Eventos 
+- Animaciones
+- Juego de Acertar al blanco
+---
