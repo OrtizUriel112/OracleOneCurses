@@ -1,0 +1,20 @@
+<canvas id="canva" width="600" height="400">
+
+</canvas>
+<script>
+        
+        
+        function paintSquare(x,y, color) {
+            let screen = document.getElementById("canva");
+            let brush = screen.getContext("2d");
+            brush.fillStyle = color;
+            brush.fillRect(x,y,50,50);
+            brush.strokeStyle = "black";
+            brush.strokeRect(x,y,50,50);
+        }
+
+        paintSquare(0,0,"green"); 
+        paintSquare(0,50,"orange"); 
+        paintSquare(0,100,"red");
+
+</script>
