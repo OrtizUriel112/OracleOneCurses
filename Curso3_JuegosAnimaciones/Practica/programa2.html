@@ -12,9 +12,11 @@
             brush.strokeStyle = "black";
             brush.strokeRect(x,y,50,50);
         }
-
-        paintSquare(0,0,"green"); 
-        paintSquare(0,50,"orange"); 
-        paintSquare(0,100,"red");
+        
+        for (let x = 0; x < 600; x+=50) {
+            paintSquare(x,0,"green");   
+            paintSquare(x,50,"yellow");  
+            paintSquare(x,100,"red"); 
+        } 
 
 </script>
