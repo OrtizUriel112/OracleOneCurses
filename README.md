@@ -20,10 +20,23 @@
 --- 
 ## Curso 3:
 ### Practicando con juegos y animaciones 
-- Conocer Canvas de HTML
+Aprenda lo que es HTML y CSS
+Entienda la estructura básica de un archivo HTML
+Utilice el navegador para inspeccionar elementos
+Aprenda a definir estilos para elementos usando CSS
+Desarrolle una página Web desde cero Conocer Canvas de HTML
 - Crear funciones e iteraciones 
 - Interacción con el usuario
     - Eventos 
 - Animaciones
 - Juego de Acertar al blanco
+---
+## Curso 4:
+### HTML5 y CSS3 
+#### Mi primera página Web
+- Aprenda lo que es HTML y CSS
+- Entienda la estructura básica de un archivo HTML
+- Utilice el navegador para inspeccionar elementos
+- Aprenda a definir estilos para elementos usando CSS
+- Desarrolle una página Web desde cero
 ---
