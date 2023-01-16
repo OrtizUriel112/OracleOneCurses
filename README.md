@@ -40,3 +40,13 @@ Desarrolle una página Web desde cero Conocer Canvas de HTML
 - Aprenda a definir estilos para elementos usando CSS
 - Desarrolle una página Web desde cero
 ---
+## Curso 5:
+### HTML5 y CSS3 
+#### Posicionamiento, listas y navegación
+- Aprenda la estructura de la página HTML
+- Navegue entre páginas Web
+- Conozca el reset.css y el prosicionamiento por el CSS
+- Entienda las diferencias entre inline-block
+- Aprenda a lidiar con bordes y capturar eventos con CSS
+- Cree encabezado, cuerpo y pié de página de una página Web
+---
