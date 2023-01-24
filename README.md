@@ -50,3 +50,30 @@ Desarrolle una página Web desde cero Conocer Canvas de HTML
 - Aprenda a lidiar con bordes y capturar eventos con CSS
 - Cree encabezado, cuerpo y pié de página de una página Web
 ---
+## Curso 6:
+### HTML5 y CSS3 
+#### Formularios y tablas.
+- Cree formularios complejos
+- Trabaje con campos para dispositivos móviles
+- Presente informacioes en tablas
+- Use estilos para formularios, campos y tablas
+- Entienda la jerarquía en el CSS
+- Trabaje con transformaciones y transiciones
+---
+## Curso 7:
+### HTML5 y CSS3 
+#### Avanzando en CSS.
+- Importe contenido externo a tu página HTML, como fuentes, videos y mapas
+- Conozca las pseudoclases y los pseudoelementos
+- Utilice selectores CSS avanzados
+- Aprenda a lidiar con la opacidad y la sombra
+- Comprenda Viewport y design responsivo
+---
+## Curso 8:
+### Git y GitHub
+#### Controle y comparta su código.
+- ¿Qué es Git y Github?
+- Entiende un sistema de control de versión
+- Guarda y recupera tu código en diferentes versiones
+- Resuelve merges y conflictos
+- Trabaja con diferentes branches
